@@ -52,14 +52,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Weapon.cs" />
     <Compile Include="WeaponType.cs" />
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
     <Compile Include="CreatureCreation.cs" />
     <Compile Include="InvalidChoiceException.cs" />
-=======
->>>>>>> origin/master
->>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
