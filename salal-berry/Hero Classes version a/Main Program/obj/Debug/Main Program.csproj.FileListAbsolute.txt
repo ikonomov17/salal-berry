@@ -1,0 +1,12 @@
+C:\Users\john\Desktop\c#\homework classes part 1\DCLASS 2\Hero Classes version a\Main Program\bin\Debug\Main Program.exe.config
+C:\Users\john\Desktop\c#\homework classes part 1\DCLASS 2\Hero Classes version a\Main Program\bin\Debug\Main Program.exe
+C:\Users\john\Desktop\c#\homework classes part 1\DCLASS 2\Hero Classes version a\Main Program\bin\Debug\Main Program.pdb
+C:\Users\john\Desktop\c#\homework classes part 1\DCLASS 2\Hero Classes version a\Main Program\obj\Debug\Main Program.csprojResolveAssemblyReference.cache
+C:\Users\john\Desktop\c#\homework classes part 1\DCLASS 2\Hero Classes version a\Main Program\obj\Debug\Main Program.exe
+C:\Users\john\Desktop\c#\homework classes part 1\DCLASS 2\Hero Classes version a\Main Program\obj\Debug\Main Program.pdb
+C:\Users\Kitty\Desktop\c# project\Hero Classes version a\Main Program\bin\Debug\Main Program.exe.config
+C:\Users\Kitty\Desktop\c# project\Hero Classes version a\Main Program\obj\Debug\Main Program.exe
+C:\Users\Kitty\Desktop\c# project\Hero Classes version a\Main Program\obj\Debug\Main Program.pdb
+C:\Users\Kitty\Desktop\c# project\Hero Classes version a\Main Program\bin\Debug\Main Program.exe
+C:\Users\Kitty\Desktop\c# project\Hero Classes version a\Main Program\bin\Debug\Main Program.pdb
+C:\Users\Kitty\Desktop\c# project\Hero Classes version a\Main Program\obj\Debug\Main Program.csprojResolveAssemblyReference.cache

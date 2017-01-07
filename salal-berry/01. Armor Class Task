@@ -1,0 +1,15 @@
+- TASK: create an Armor class.
+
+* As an example take the existing Weapon.cs.
+* It should have the following fields: int health, int speed, int armor, ArmorType (enum), Quality (enum).
+* It should have the methods generateArmor and generateSpeed and generateHealth.
+* It doesn't matter what the values are, they will be edited in later stages.
+
+- TASK: create an ArmorType enumerator.
+
+* It should contain a few types of armor material like leather, plate, mail and so on.
+* Connect it to the Armor class.
+
+
+
+

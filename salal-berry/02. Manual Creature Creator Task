@@ -1,0 +1,12 @@
+- TASK: finish and improve the existing code in the Manual_Creature_Creator Class.
+
+* The code is here: http://pastebin.com/Xuy879m3
+* The methods should have complete data validation.
+* Every paramether should be created in a separate Method.
+* It should have methods for the following data: Gender, Size, Age, Hero Specialisation (Warrior, Mage), 
+Hero Sub-Specialisation (Veteran, Tribesman for *Warrior* and Healer, White Wizard for *Mage*).
+
+* The main purpose of this class is to ask the user specific, leading questions and taking his answers create all the 
+necessary data for a custom Hero, which will then be used to create the duel (main game idea).
+
+
