@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Main Program/InvalidChoiceException.cs">
+    <Files>
+      <File FileName="Main Program/Creature.cs" Line="1" Column="1" />
+      <File FileName="Main Program/Gender.cs" Line="1" Column="1" />
+      <File FileName="Main Program/Hero.cs" Line="1" Column="1" />
+      <File FileName="Main Program/Quality.cs" Line="1" Column="1" />
+      <File FileName="Main Program/Size.cs" Line="1" Column="1" />
+      <File FileName="Main Program/StartClass.cs" Line="1" Column="1" />
+      <File FileName="Main Program/Weapon.cs" Line="1" Column="1" />
+      <File FileName="Main Program/WeaponType.cs" Line="1" Column="1" />
+      <File FileName="Main Program/InvalidChoiceException.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
