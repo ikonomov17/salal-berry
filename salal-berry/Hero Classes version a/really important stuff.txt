@@ -1,0 +1,7 @@
+Aleks Nenov - armour class
+Aleks Ikonomov - skills class, magic
+Daniel Slavov - abstract methods, warrior, mage (skill, magic),
+Daniel Tsonkov - monster, bandit
+Kaloyan - environment enumerator + some action
+
+battle
