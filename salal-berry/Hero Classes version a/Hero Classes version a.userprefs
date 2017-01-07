@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{3574A558-D98F-4602-8DFE-1BF5BEA0FA3B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Main Program/CreatureCreation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Main Program/test.cs">
     <Files>
       <File FileName="Main Program/Creature.cs" Line="1" Column="1" />
       <File FileName="Main Program/Gender.cs" Line="1" Column="1" />
@@ -9,7 +9,8 @@
       <File FileName="Main Program/StartClass.cs" Line="1" Column="1" />
       <File FileName="Main Program/Weapon.cs" Line="1" Column="1" />
       <File FileName="Main Program/WeaponType.cs" Line="1" Column="1" />
-      <File FileName="Main Program/CreatureCreation.cs" Line="8" Column="4" />
+      <File FileName="Main Program/CreatureCreation.cs" Line="11" Column="1" />
+      <File FileName="Main Program/test.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
