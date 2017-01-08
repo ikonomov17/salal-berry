@@ -8,7 +8,7 @@ namespace Main_Program
 		private readonly MageType type;
 
 		//Constructor for random generation of all fields
-		public Mage() : base()
+		public Mage()
 		{
 			Random rnd = new Random();
 			this.type = (MageType)rnd.Next(0, 3);

@@ -1,21 +1,16 @@
 ﻿<Properties StartupConfiguration="{3574A558-D98F-4602-8DFE-1BF5BEA0FA3B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Main Program/Magic.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Main Program/Mage.cs">
     <Files>
-      <File FileName="Main Program/Creature.cs" Line="11" Column="30" />
-      <File FileName="Main Program/Hero.cs" Line="97" Column="3" />
-      <File FileName="Main Program/Warrior.cs" Line="27" Column="204" />
-      <File FileName="Main Program/Mage.cs" Line="7" Column="20" />
-      <File FileName="Main Program/StartClass.cs" Line="28" Column="1" />
-      <File FileName="Main Program/WarriorType.cs" Line="5" Column="21" />
-      <File FileName="Main Program/Magic.cs" Line="5" Column="4" />
+      <File FileName="Main Program/Creature.cs" Line="27" Column="25" />
+      <File FileName="Main Program/Hero.cs" Line="50" Column="47" />
+      <File FileName="Main Program/Warrior.cs" Line="22" Column="4" />
+      <File FileName="Main Program/Mage.cs" Line="17" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Main_220Program PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/danielslavov/GitHub/salal-berry/salal-berry/Hero Classes version a/Main Program/StartClass.cs" line="28" column="22" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
