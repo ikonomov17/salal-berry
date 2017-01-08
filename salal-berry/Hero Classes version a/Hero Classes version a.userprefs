@@ -1,18 +1,16 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Main Program/InvalidChoiceException.cs">
+﻿<Properties StartupConfiguration="{3574A558-D98F-4602-8DFE-1BF5BEA0FA3B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Main Program/Warrior.cs">
     <Files>
-      <File FileName="Main Program/Creature.cs" Line="1" Column="1" />
+      <File FileName="Main Program/Creature.cs" Line="12" Column="27" />
       <File FileName="Main Program/Gender.cs" Line="1" Column="1" />
-      <File FileName="Main Program/Hero.cs" Line="1" Column="1" />
+      <File FileName="Main Program/Hero.cs" Line="20" Column="30" />
       <File FileName="Main Program/Quality.cs" Line="1" Column="1" />
-      <File FileName="Main Program/Size.cs" Line="1" Column="1" />
-      <File FileName="Main Program/StartClass.cs" Line="1" Column="1" />
-      <File FileName="Main Program/Weapon.cs" Line="1" Column="1" />
-      <File FileName="Main Program/WeaponType.cs" Line="1" Column="1" />
-      <File FileName="Main Program/InvalidChoiceException.cs" Line="1" Column="1" />
+      <File FileName="Main Program/StartClass.cs" Line="20" Column="53" />
+      <File FileName="Main Program/Warrior.cs" Line="7" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Main_220Program PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

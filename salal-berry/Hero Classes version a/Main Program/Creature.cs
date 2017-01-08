@@ -2,8 +2,9 @@
 
 namespace Main_Program
 {
-    class Creature
+    public class Creature
     {
+		//Fields:
         private int health;
         private int damage;
         private int armor;
@@ -11,93 +12,148 @@ namespace Main_Program
         private int agility;
         private int speed;
 
+		//Constructor for random generation of the fields
         public Creature()
         {
-            generateHealth();
-            generateDamage();
-            generateArmor();
-            generateStrength();
-            generateAgility();
-            generateSpeed();
+			Random rnd = new Random();
+            this.Health = rnd.Next(130, 171);
+			this.Damage = rnd.Next(3, 7);
+			this.Armor = rnd.Next(0, 2);
+			this.Strength = rnd.Next(5, 10);
+			this.Agility = rnd.Next(5, 10);
+			this.Speed = rnd.Next(85, 115);
         }
 
+		//Costructor with input parameters
+		public Creature(int health, int damage, int armor, int strength, int agility, int speed)
+		{
+			this.Health = health;
+			this.Damage = damage;
+			this.Armor = armor;
+			this.Strength = strength;
+			this.Agility = agility;
+			this.Speed = speed;
+		}
+
+		//Properties:
         public int Health
         {
-            get { return this.health; }
-            set { this.health = value; }
+            get 
+			{
+				return this.health;
+			}
+
+			protected set 
+			{
+				if (true) // true will be updated with the needed check later
+				{
+					this.health = value;
+				}
+				else
+				{
+					throw new InvalidChoiceException("Value is out of range.");
+				}
+			}
         }
 
         public int Damage
         {
-            get { return this.damage; }
-            set { this.damage = value; }
+            get
+			{
+				return this.damage;
+			}
+
+			protected set
+			{
+				if (true) // true will be updated with the needed check later
+				{
+					this.damage = value;
+				}
+				else
+				{
+					throw new InvalidChoiceException("Value is out of range.");
+				}
+			}
         }
 
         public int Armor
         {
-            get { return this.armor; }
-            set { this.armor = value; }
+            get
+			{
+				return this.armor;
+			}
+
+			protected set
+			{
+				if (true) // true will be updated with the needed check later
+				{
+					this.armor = value;
+				}
+				else
+				{
+					throw new InvalidChoiceException("Value is out of range.");
+				}
+			}
         }
 
         public int Strength
         {
-            get { return this.strength; }
-            set { this.strength = value; }
+            get
+			{
+				return this.strength;
+			}
+
+			protected set
+			{
+				if (true) // true will be updated with the needed check later
+				{
+					this.strength = value;
+				}
+				else
+				{
+					throw new InvalidChoiceException("Value is out of range.");
+				}
+			}
         }
 
         public int Agility
         {
-            get { return this.agility; }
-            set { this.agility = value; }
+            get
+			{
+				return this.agility;
+			}
+
+			protected set
+			{
+				if (true) // true will be updated with the needed check later
+				{
+					this.agility = value;
+				}
+				else
+				{
+					throw new InvalidChoiceException("Value is out of range.");
+				}
+			}
         }
 
         public int Speed
         {
-            get { return this.speed; }
-            set { this.speed = value; }
-        }
+            get
+			{
+				return this.speed;
+			}
 
-        public int generateHealth()
-        {
-            Random setter = new Random();
-            this.health = setter.Next(130, 171);
-            return health;
+			protected set
+			{
+				if (true) // true will be updated with the needed check later
+				{
+					this.speed = value;
+				}
+				else
+				{
+					throw new InvalidChoiceException("Value is out of range.");
+				}
+			}
         }
-
-        public int generateDamage()
-        {
-            Random setter = new Random();
-            this.damage = setter.Next(3, 7);
-            return damage;
-        }
-
-        public int generateArmor()
-        {
-            Random setter = new Random();
-            this.armor = setter.Next(0, 2);
-            return armor;
-        }
-
-        public int generateStrength()
-        {
-            Random setter = new Random();
-            this.strength = setter.Next(5, 10);
-            return strength;
-        }
-
-        public int generateAgility()
-        {
-            Random setter = new Random();
-            this.agility = setter.Next(5, 10);
-            return agility;
-        }
-
-        public int generateSpeed()
-        {
-            Random setter = new Random();
-            this.speed = setter.Next(85, 115);
-            return speed;
-        }
-
     }
 }

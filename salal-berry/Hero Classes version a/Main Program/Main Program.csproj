@@ -53,6 +53,7 @@
     <Compile Include="Weapon.cs" />
     <Compile Include="WeaponType.cs" />
     <Compile Include="InvalidChoiceException.cs" />
+    <Compile Include="Warrior.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -2,7 +2,7 @@
 
 namespace Main_Program
 {
-    class Hero : Creature
+    public class Hero : Creature
     {
         private Gender gender;
         private Size size;

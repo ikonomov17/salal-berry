@@ -3,5 +3,13 @@ Aleks Ikonomov - skills class, magic
 Daniel Slavov - abstract methods, warrior, mage (skill, magic),
 Daniel Tsonkov - monster, bandit
 Kaloyan - environment enumerator + some action
+Vasil - battle
 
-battle
++++++++++++++++++++++++++++++++++++++
+ranges for fields:
+health - 130-170
+damage - 3-6
+armor - 0-1
+strength - 5-9
+agility - 5-9
+speed - 85-114
