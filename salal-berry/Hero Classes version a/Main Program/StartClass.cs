@@ -21,9 +21,16 @@ namespace Main_Program
             //Console.WriteLine(smallSword.Damage + " " + smallSword.Quality);
 
 			Creature test1 = new Warrior();
-			Creature test2 = new Mage();
 			Console.WriteLine(test1);
+
+			Creature test2 = new Mage();
 			Console.WriteLine(test2);
+
+			Creature enemy1 = new Monster();
+			Console.WriteLine(enemy1);
+
+			Creature enemy2 = new Bandit();
+			Console.WriteLine(enemy2);
         }
     }
 }
