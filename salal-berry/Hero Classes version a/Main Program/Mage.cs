@@ -2,9 +2,9 @@
 
 namespace Main_Program
 {
-	public class Warrior : Hero
+	public class Mage : Hero
 	{
-		public Warrior()
+		public Mage()
 		{
 		}
 	}

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Main_Program
+﻿namespace Main_Program
 {
     public enum Gender
     {
