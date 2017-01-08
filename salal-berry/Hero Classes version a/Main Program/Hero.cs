@@ -2,14 +2,14 @@
 
 namespace Main_Program
 {
-    public class Hero : Creature
+    public abstract class Hero : Creature
     {
 		//Fields:
 		private readonly Gender gender;
         private readonly Size size;
 		private readonly int age;
 
-		//Constructor for randon generation of all fields
+		//Constructor for random generation of all fields
 		public Hero()
 		{
 			Random rnd = new Random();
@@ -18,16 +18,7 @@ namespace Main_Program
 			this.age = rnd.Next(20, 60);
 		}
 
-		//Constructor with input parameters only for hero fields
-		//All other creature fields are set randomly
-		public Hero(Gender gender, Size size, int age)
-        {
-			this.gender = gender;
-			this.size = size;
-			this.age = age;
-        }
-
-		//Constructor with all input all input parmeters
+		//Constructor with all input parmeters
         public Hero(Gender gender, Size size, int age, int health, int damage, int armor, int strength, int agility, int speed) 
             : base(health, damage, armor, strength, agility, speed)
         {
@@ -94,6 +85,8 @@ namespace Main_Program
             this.Health = this.Health + this.Strength * 3;
             this.Damage = this.Damage + this.Strength;
         }
+
+		public abstract override string GetFields();
 
     }
 }

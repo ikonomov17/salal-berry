@@ -55,6 +55,8 @@
     <Compile Include="InvalidChoiceException.cs" />
     <Compile Include="Warrior.cs" />
     <Compile Include="Mage.cs" />
+    <Compile Include="WarriorType.cs" />
+    <Compile Include="MageType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

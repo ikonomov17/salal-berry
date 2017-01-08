@@ -2,7 +2,7 @@
 
 namespace Main_Program
 {
-    public class Creature
+	public abstract class Creature
     {
 		//Fields:
         private int health;
@@ -24,7 +24,7 @@ namespace Main_Program
 			this.Speed = rnd.Next(85, 115);
         }
 
-		//Costructor with input parameters
+		//Costructor with all input parameters
 		public Creature(int health, int damage, int armor, int strength, int agility, int speed)
 		{
 			this.Health = health;
@@ -38,122 +38,52 @@ namespace Main_Program
 		//Properties:
         public int Health
         {
-            get 
-			{
-				return this.health;
-			}
-
-			protected set 
-			{
-				if (true) // true will be updated with the needed check later
-				{
-					this.health = value;
-				}
-				else
-				{
-					throw new InvalidChoiceException("Value is out of range.");
-				}
-			}
+            get { return this.health; }
+			protected set { this.health = value; }
         }
 
         public int Damage
         {
-            get
-			{
-				return this.damage;
-			}
+			get { return this.damage; }
+			protected set { this.damage = value; }
+		}
 
-			protected set
-			{
-				if (true) // true will be updated with the needed check later
-				{
-					this.damage = value;
-				}
-				else
-				{
-					throw new InvalidChoiceException("Value is out of range.");
-				}
-			}
-        }
 
-        public int Armor
+		public int Armor
         {
-            get
-			{
-				return this.armor;
-			}
+			get { return this.armor; }
+			protected set { this.armor = value; }
+		}
 
-			protected set
-			{
-				if (true) // true will be updated with the needed check later
-				{
-					this.armor = value;
-				}
-				else
-				{
-					throw new InvalidChoiceException("Value is out of range.");
-				}
-			}
-        }
 
-        public int Strength
+		public int Strength
         {
-            get
-			{
-				return this.strength;
-			}
+            get { return this.health; }
+			protected set { this.health = value; }
+		}
 
-			protected set
-			{
-				if (true) // true will be updated with the needed check later
-				{
-					this.strength = value;
-				}
-				else
-				{
-					throw new InvalidChoiceException("Value is out of range.");
-				}
-			}
-        }
 
-        public int Agility
+		public int Agility
         {
-            get
-			{
-				return this.agility;
-			}
+			get { return this.agility; }
+			protected set { this.agility = value; }
+		}
 
-			protected set
-			{
-				if (true) // true will be updated with the needed check later
-				{
-					this.agility = value;
-				}
-				else
-				{
-					throw new InvalidChoiceException("Value is out of range.");
-				}
-			}
-        }
 
-        public int Speed
+		public int Speed
         {
-            get
-			{
-				return this.speed;
-			}
+			get { return this.speed; }
+			protected set { this.speed = value; }
+		}
 
-			protected set
-			{
-				if (true) // true will be updated with the needed check later
-				{
-					this.speed = value;
-				}
-				else
-				{
-					throw new InvalidChoiceException("Value is out of range.");
-				}
-			}
-        }
+		//Methods:
+		//abstract method to return all fields of an object
+		public abstract string GetFields();
+
+		public override string ToString()
+		{
+			return this.GetFields();
+		}
+
     }
 }
