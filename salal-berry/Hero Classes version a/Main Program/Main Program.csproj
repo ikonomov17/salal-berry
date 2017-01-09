@@ -44,8 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Creature.cs" />
+    <Compile Include="Difficulty.cs" />
+    <Compile Include="Enemy.cs" />
+    <Compile Include="Environment.cs" />
     <Compile Include="Gender.cs" />
     <Compile Include="Hero.cs" />
+    <Compile Include="Potentialities.cs" />
     <Compile Include="Quality.cs" />
     <Compile Include="Size.cs" />
     <Compile Include="StartClass.cs" />
