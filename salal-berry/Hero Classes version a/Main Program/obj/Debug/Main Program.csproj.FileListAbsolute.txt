@@ -10,9 +10,9 @@ C:\Users\Kitty\Desktop\c# project\Hero Classes version a\Main Program\obj\Debug\
 C:\Users\Kitty\Desktop\c# project\Hero Classes version a\Main Program\bin\Debug\Main Program.exe
 C:\Users\Kitty\Desktop\c# project\Hero Classes version a\Main Program\bin\Debug\Main Program.pdb
 C:\Users\Kitty\Desktop\c# project\Hero Classes version a\Main Program\obj\Debug\Main Program.csprojResolveAssemblyReference.cache
-C:\Users\Kalo\Desktop\Repository1\Sala\salal-berry\salal-berry\Hero Classes version a\Main Program\bin\Debug\Main Program.exe.config
-C:\Users\Kalo\Desktop\Repository1\Sala\salal-berry\salal-berry\Hero Classes version a\Main Program\obj\Debug\Main Program.exe
-C:\Users\Kalo\Desktop\Repository1\Sala\salal-berry\salal-berry\Hero Classes version a\Main Program\obj\Debug\Main Program.pdb
-C:\Users\Kalo\Desktop\Repository1\Sala\salal-berry\salal-berry\Hero Classes version a\Main Program\bin\Debug\Main Program.exe
-C:\Users\Kalo\Desktop\Repository1\Sala\salal-berry\salal-berry\Hero Classes version a\Main Program\bin\Debug\Main Program.pdb
-C:\Users\Kalo\Desktop\Repository1\Sala\salal-berry\salal-berry\Hero Classes version a\Main Program\obj\Debug\Main Program.csprojResolveAssemblyReference.cache
+C:\oop\salal-berry\salal-berry\Hero Classes version a\Main Program\bin\Debug\Main Program.exe.config
+C:\oop\salal-berry\salal-berry\Hero Classes version a\Main Program\obj\Debug\Main Program.exe
+C:\oop\salal-berry\salal-berry\Hero Classes version a\Main Program\obj\Debug\Main Program.pdb
+C:\oop\salal-berry\salal-berry\Hero Classes version a\Main Program\bin\Debug\Main Program.exe
+C:\oop\salal-berry\salal-berry\Hero Classes version a\Main Program\bin\Debug\Main Program.pdb
+C:\oop\salal-berry\salal-berry\Hero Classes version a\Main Program\obj\Debug\Main Program.csprojResolveAssemblyReference.cache

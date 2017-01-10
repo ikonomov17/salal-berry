@@ -2,41 +2,46 @@
 
 namespace Main_Program
 {
-    class Hero : Creature
+    public abstract class Hero : Creature
     {
-        private Gender gender;
-        private Size size;
-        private int age;
+		//Fields:
+		private readonly Gender gender;
+        private readonly Size size;
+		private readonly int age;
 
-        public Hero()
-        {
+		//Constructor for random generation of all fields
+		public Hero()
+		{
+			Random rnd = new Random();
+			this.gender = (Gender)rnd.Next(0, 2);
+			this.size = (Size)rnd.Next(0, 3);
+			this.age = rnd.Next(20, 60);
+		}
 
-        }
-
+		//Constructor with all input parmeters
         public Hero(Gender gender, Size size, int age, int health, int damage, int armor, int strength, int agility, int speed) 
             : base(health, damage, armor, strength, agility, speed)
         {
-            this.gender = gender;
-            this.size = size;
-            this.age = age;
+			this.gender = gender;
+			this.size = size;
+			this.age = age;
         }
 
-        public Gender Gender
-        {           
-            get { return this.gender; }
-            set { this.gender = value; }
-        }
-        public Size Size
-        {
-            get { return this.size; }
-            set { this.size = value; }
-        }
-        public int Age
-        {
-            get { return this.age; }
-            set { this.age = value; }
-        }
+		//Properties
+		public Gender Gender 
+		{
+			get { return this.gender; }
+		}
+		public Size Size
+		{
+			get { return this.size; }
+		}
+		public int Age
+		{
+			get { return this.age; }
+		}
 
+		//Methods:
         //this method makes the variables age, gender and size meaningful, by adding different benefits to the functional fields
         public void InitialInformation()
         {          
@@ -80,6 +85,8 @@ namespace Main_Program
             this.Health = this.Health + this.Strength * 3;
             this.Damage = this.Damage + this.Strength;
         }
+
+		public abstract override string GetFields();
 
     }
 }

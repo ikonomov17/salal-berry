@@ -1,26 +1,4 @@
 ﻿using System;
-<<<<<<< HEAD
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Main_Program
-{
-    class Enemy : Creature
-    {
-        // properties
-        public Difficulty Rank { get; internal set; }
-        public int ScoreReward { get; internal set; }
-
-        // constructors
-        public Enemy(Difficulty rank, int scoreReward)
-        {
-            this.Rank = rank;
-            this.ScoreReward = scoreReward;
-        }
-    }
-=======
 
 namespace Main_Program
 {
@@ -61,5 +39,4 @@ namespace Main_Program
 		public abstract override string GetFields();
 
 	}
->>>>>>> 3a229a13164ba938523baac54a045913bee1bd48
 }
