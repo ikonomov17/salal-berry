@@ -48,6 +48,7 @@
     <Compile Include="Creature.cs" />
     <Compile Include="Gender.cs" />
     <Compile Include="Hero.cs" />
+    <Compile Include="Magic.cs" />
     <Compile Include="Quality.cs" />
     <Compile Include="Size.cs" />
     <Compile Include="Skills.cs" />

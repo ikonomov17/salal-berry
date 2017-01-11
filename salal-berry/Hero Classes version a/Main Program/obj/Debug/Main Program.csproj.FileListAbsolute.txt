@@ -19,3 +19,6 @@ C:\oop\salal-berry\salal-berry\Hero Classes version a\Main Program\obj\Debug\Mai
 C:\Users\Aleks\Desktop\Salal-berry\salal-berry\salal-berry\Hero Classes version a\Main Program\bin\Debug\Main Program.exe.config
 C:\Users\Aleks\Desktop\Salal-berry\salal-berry\salal-berry\Hero Classes version a\Main Program\obj\Debug\Main Program.exe
 C:\Users\Aleks\Desktop\Salal-berry\salal-berry\salal-berry\Hero Classes version a\Main Program\obj\Debug\Main Program.pdb
+C:\Users\Aleks\Desktop\Salal-berry\salal-berry\salal-berry\Hero Classes version a\Main Program\bin\Debug\Main Program.exe
+C:\Users\Aleks\Desktop\Salal-berry\salal-berry\salal-berry\Hero Classes version a\Main Program\bin\Debug\Main Program.pdb
+C:\Users\Aleks\Desktop\Salal-berry\salal-berry\salal-berry\Hero Classes version a\Main Program\obj\Debug\Main Program.csprojResolveAssemblyReference.cache
