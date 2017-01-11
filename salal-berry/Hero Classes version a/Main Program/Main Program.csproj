@@ -50,6 +50,7 @@
     <Compile Include="Hero.cs" />
     <Compile Include="Quality.cs" />
     <Compile Include="Size.cs" />
+    <Compile Include="Skills.cs" />
     <Compile Include="StartClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Weapon.cs" />
