@@ -13,7 +13,7 @@ namespace Main_Program
             Random setter = new Random();
             this.Type = (BanditType)setter.Next(0, 3);
             this.WpType = weapon;
-            this.Health += setter.Next(40,151);
+            this.Health += setter.Next(40, 151);
             this.Armor += setter.Next(1, 3);
             this.Speed += setter.Next(10, 90);
             this.Damage += weapon.Damage;
