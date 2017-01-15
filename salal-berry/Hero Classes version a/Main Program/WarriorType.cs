@@ -1,7 +1,7 @@
 ﻿namespace Main_Program
 {
+    //delete
 	public enum WarriorType
 	{
-		veteran, tribesman
 	}
 }

@@ -46,11 +46,14 @@
     <Compile Include="Armor.cs" />
     <Compile Include="ArmorType.cs" />
     <Compile Include="Creature.cs" />
+    <Compile Include="EnemyCreator.cs" />
     <Compile Include="Gender.cs" />
     <Compile Include="Hero.cs" />
     <Compile Include="Magic.cs" />
+    <Compile Include="HeroCreator.cs" />
     <Compile Include="Quality.cs" />
     <Compile Include="Size.cs" />
+    <Compile Include="Actions.cs" />
     <Compile Include="Skills.cs" />
     <Compile Include="StartClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

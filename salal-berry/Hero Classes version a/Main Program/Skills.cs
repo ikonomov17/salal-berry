@@ -8,48 +8,35 @@ namespace Main_Program
 {
     public static class Skills
     {
-        //AttackWithWeapon get's {Creature one} Strenght and Agility as bonus to it's attack and 
-        //gets {Creature two's} armor to reduce the damage.
-
-        public static void AttackWithWeapon(this Creature one, Creature two)
+        public static int PhysicalAttack(this Creature one, Creature two)
         {
-            double damage = one.Damage + (one.Strength * 0.2) + (one.Agility * 0.2) - (two.Armor * 0.2);
-            Console.WriteLine($"Creature one attacked creature two and caused {damage} damage!");
-            //TODO change Health property access modifier
-            //two.Health -= damage;
+            int damage = one.Damage - two.Armor;
+            string first = one.GetType().ToString();
+            string second = two.GetType().ToString();
+            Console.WriteLine($"{first} attacked {second} and caused {damage} damage!");
+            two.Health -= damage;
+            return two.Health;
         }
 
         //Dodge method returns boolean which shows if {Creature one} will dodge {Creature two's} attack.
-
         public static bool Dodge(this Creature one, Creature two)
         {
-
             Random dodgeChance = new Random();
-            int dodge = dodgeChance.Next(1, 100);
+            int dodge = (one.Agility - two.Agility) + dodgeChance.Next(1, 11) + one.Speed / 100;
+
             //if this creature has below 50% health dodge chance increased!
-            if (one.Health > (one.Health / 2))
+            if (one.Health >= (one.Health / 2))
             {
-                double oneChance = (one.Agility * 0.2) + (one.Speed * 0.5);
-                if (oneChance <= dodge)
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
+                dodge = dodge * 2;
+            }
+
+            if (dodge <= dodgeChance.Next(1, 101))
+            {
+                return true;
             }
             else
             {
-                double oneChance = (one.Agility * 0.2) + (one.Speed * 0.2);
-                if (oneChance <= dodge)
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
+                return false;
             }
         }
 

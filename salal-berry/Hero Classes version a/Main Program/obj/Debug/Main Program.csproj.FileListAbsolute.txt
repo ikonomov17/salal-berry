@@ -22,3 +22,9 @@ C:\Users\Aleks\Desktop\Salal-berry\salal-berry\salal-berry\Hero Classes version 
 C:\Users\Aleks\Desktop\Salal-berry\salal-berry\salal-berry\Hero Classes version a\Main Program\bin\Debug\Main Program.exe
 C:\Users\Aleks\Desktop\Salal-berry\salal-berry\salal-berry\Hero Classes version a\Main Program\bin\Debug\Main Program.pdb
 C:\Users\Aleks\Desktop\Salal-berry\salal-berry\salal-berry\Hero Classes version a\Main Program\obj\Debug\Main Program.csprojResolveAssemblyReference.cache
+C:\Users\john\Desktop\git oop c# 1\salal-berry\Hero Classes version a\Main Program\bin\Debug\Main Program.exe.config
+C:\Users\john\Desktop\git oop c# 1\salal-berry\Hero Classes version a\Main Program\obj\Debug\Main Program.exe
+C:\Users\john\Desktop\git oop c# 1\salal-berry\Hero Classes version a\Main Program\obj\Debug\Main Program.pdb
+C:\Users\john\Desktop\git oop c# 1\salal-berry\Hero Classes version a\Main Program\bin\Debug\Main Program.exe
+C:\Users\john\Desktop\git oop c# 1\salal-berry\Hero Classes version a\Main Program\bin\Debug\Main Program.pdb
+C:\Users\john\Desktop\git oop c# 1\salal-berry\Hero Classes version a\Main Program\obj\Debug\Main Program.csprojResolveAssemblyReference.cache

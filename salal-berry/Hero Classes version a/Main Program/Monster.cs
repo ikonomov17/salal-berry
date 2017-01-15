@@ -4,31 +4,52 @@ namespace Main_Program
 {
 	public class Monster : Enemy
 	{
-		//Fields:
-		private readonly MonsterType type;
+		private MonsterType type;
 
-		//Constructor for random generation of all fields
-		public Monster()
+		public Monster(DifficultyLevel difficulty)
+            : base(difficulty)
 		{
-			Random rnd = new Random();
-			this.type = (MonsterType)rnd.Next(0, 3);
-		}
+            Random setter = new Random();
+			this.Type = (MonsterType)setter.Next(0,4);
+            this.Health += setter.Next(140, 251);
+            this.Armor += setter.Next(2, 6);
+            this.Speed -= setter.Next(30, 90);
+            this.Damage += setter.Next(1, 10);
+            DifficultyBonus(difficulty);
+        }
 
-		//Constructor with all input parmeters
-		public Monster(MonsterType type, DifficultyLevel difficulty, int reward, int age, int health, int damage, int armor, int strength, int agility, int speed)
-			: base(difficulty, reward, health, damage, armor, strength, agility, speed)
-		{
-			this.type = type;
-		}
+        public MonsterType Type
+        {
+            get { return this.type; }
+            private set { this.type = value; }
+        }
 
-		//Properties:
-		public MonsterType Type
-		{
-			get { return this.type; }
-		}
+        public override void DifficultyBonus(DifficultyLevel difficulty)
+        {
+            if (difficulty == DifficultyLevel.Easy)
+            {
+                Random rnd = new Random();
+                this.Health -= rnd.Next(80, 120);
+                this.Armor -= rnd.Next(2, 5);
+                this.Speed -= rnd.Next(90, 140);
+                this.Damage -= rnd.Next(4, 7);
+            }
+            else if (difficulty == DifficultyLevel.Hard)
+            {
+                Random rnd = new Random();
+                this.Health += rnd.Next(80, 120);
+                this.Armor += rnd.Next(2, 5);
+                this.Damage += rnd.Next(4, 7);
+            }
+            else
+            {
 
-		//Methods:
-		public override string GetFields()
+            }
+        }
+
+
+
+        public override string GetFields()
 		{
 			return string.Format($"MONSTER:\nHealth={Health},\nDamage={Damage},\nArmor={Armor},\nStrength={Strength},\nAgility={Agility},\nSpeed={Speed},\nDifficulty Level={Difficulty},\nReward={Reward},\nType={Type}\n");
 		}

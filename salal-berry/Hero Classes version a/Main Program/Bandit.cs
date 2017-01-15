@@ -4,31 +4,59 @@ namespace Main_Program
 {
 	public class Bandit : Enemy
 	{
-		//Fields:
-		private readonly BanditType type;
+        private BanditType type;
+        private Weapon weapon;
 
-		//Constructor for random generation of all fields
-		public Bandit()
+        public Bandit(DifficultyLevel difficulty, Weapon weapon)
+            : base(difficulty)
 		{
-			Random rnd = new Random();
-			this.type = (BanditType)rnd.Next(0, 2);
-		}
+            Random setter = new Random();
+            this.Type = (BanditType)setter.Next(0, 3);
+            this.WpType = weapon;
+            this.Health += setter.Next(40,151);
+            this.Armor += setter.Next(1, 3);
+            this.Speed += setter.Next(10, 90);
+            this.Damage += weapon.Damage;
+            DifficultyBonus(difficulty);
+        }
 
-		//Constructor with all input parmeters
-		public Bandit(BanditType type, DifficultyLevel difficulty, int reward, int age, int health, int damage, int armor, int strength, int agility, int speed)
-			: base(difficulty, reward, health, damage, armor, strength, agility, speed)
-		{
-			this.type = type;
-		}
+        public BanditType Type
+        {
+            get { return this.type; }
+            private set { this.type = value; }
+        }
 
-		//Properties:
-		public BanditType Type
-		{
-			get { return this.type; }
-		}
+        public Weapon WpType
+        {
+            get { return this.weapon; }
+            private set { this.weapon = value; }
+        }
 
-		//Methods:
-		public override string GetFields()
+        public override void DifficultyBonus(DifficultyLevel difficulty)
+        {
+            if (difficulty == DifficultyLevel.Easy)
+            {
+                Random rnd = new Random();
+                this.Health -= rnd.Next(40, 90);
+                this.Armor -= rnd.Next(1, 3);
+                this.Speed -= rnd.Next(10, 40);
+                this.Damage -= rnd.Next(1, 3);
+            }
+            else if (difficulty == DifficultyLevel.Hard)
+            {
+                Random rnd = new Random();
+                this.Health += rnd.Next(40, 90);
+                this.Armor += rnd.Next(1, 3);
+                this.Speed += rnd.Next(10, 40);
+                this.Damage += rnd.Next(1, 3);
+            }
+            else
+            {
+
+            }
+        }
+
+        public override string GetFields()
 		{
 			return string.Format($"BANDIT:\nHealth={Health},\nDamage={Damage},\nArmor={Armor},\nStrength={Strength},\nAgility={Agility},\nSpeed={Speed},\nDifficulty Level={Difficulty},\nReward={Reward},\nType={Type}\n");
 		}

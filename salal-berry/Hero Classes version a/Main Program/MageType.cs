@@ -1,8 +1,7 @@
 ﻿namespace Main_Program
 {
+    //delete
 	public enum MageType
 	{
-		magic1, magic2, magic3
-		//should be updated!!!
 	}
 }
