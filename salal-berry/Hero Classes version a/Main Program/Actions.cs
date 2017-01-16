@@ -40,10 +40,10 @@ namespace Main_Program
             int iniHero = MainHero.Speed;
             int iniEnemy = MainEnemy.Speed;
 
-            while (MainEnemy.Health > 0 || MainHero.Health > 0)
+            while (MainEnemy.Health > 0 && MainHero.Health > 0)
             {
-                Console.WriteLine("enemy health" + MainEnemy.Health);
-                Console.WriteLine("hero health" + MainHero.Health);
+                Console.WriteLine("enemy health " + MainEnemy.Health);
+                Console.WriteLine("hero health " + MainHero.Health);
                 int didBothAttack = 0;
 
                 if (iniHero >= iniEnemy)
