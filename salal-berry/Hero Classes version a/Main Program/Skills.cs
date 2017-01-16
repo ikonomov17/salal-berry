@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Main_Program
 {
@@ -11,9 +7,7 @@ namespace Main_Program
         public static int PhysicalAttack(this Creature one, Creature two)
         {
             int damage = one.Damage - two.Armor;
-            string first = one.GetType().ToString();
-            string second = two.GetType().ToString();
-            Console.WriteLine($"{first} attacked {second} and caused {damage} damage!");
+            Console.WriteLine($"{one.GetType().Name} attacked {two.GetType().Name} and caused {damage} damage!");
             two.Health -= damage;
             return two.Health;
         }
@@ -46,7 +40,7 @@ namespace Main_Program
             double damage = (one.Agility * 0.2) + (one.Strength * 0.2);
             damage *= 0.25;
             //TODO change Health property access modifier
-            //two.Health -= damage;
+            two.Health -= (int)damage;
         }
     }
 }
