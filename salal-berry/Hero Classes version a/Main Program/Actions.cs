@@ -69,6 +69,11 @@ namespace Main_Program
 
                 Console.WriteLine("enemy health " + MainEnemy.Health);
                 Console.WriteLine("hero health " + MainHero.Health);
+
+                if (MainEnemy.Health > 0 && MainHero.Health > 0)
+                {
+                    Console.Clear();
+                }
             }
         }
 
