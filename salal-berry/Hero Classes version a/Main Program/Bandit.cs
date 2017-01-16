@@ -15,7 +15,7 @@ namespace Main_Program
             this.WpType = weapon;
             this.Health += setter.Next(40, 151);
             this.Armor += setter.Next(1, 3);
-            this.Speed += setter.Next(10, 90);
+            this.Speed += setter.Next(10, 40);
             this.Damage += weapon.Damage;
             DifficultyBonus(difficulty);
         }

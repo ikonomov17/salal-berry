@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace Main_Program
 {
@@ -6,9 +7,18 @@ namespace Main_Program
     {
         public Hero StartUp()
         {
-            Console.WriteLine("**Type the number to make your choice.**");
+            FirstWords();
             return ClassType();
         }
+
+        public void FirstWords()
+        {
+            Console.WriteLine("The city is under attack by an army of monsters and scoundrels!\nThey've reached the castle, you have to help in the defence!");
+            Console.WriteLine();
+            Thread.Sleep(1500);
+            Console.WriteLine("**Type the number to make your choice.**");
+        }
+
 
         //Order of methods used: ClassType > Gender > Size > Age > Weapon > WeaponType > WeaponSize > Armor > ArmorType
         public Hero ClassType()
@@ -28,8 +38,9 @@ namespace Main_Program
             }
             else
             {
-                Mage finishedMage = new Mage(Weapon(), currentGen, currentSiz, currentAge);
-                return finishedMage;
+                Console.WriteLine("You know that magic is not tolerated in this city, for now you'll stick to weapons.\nOne day you'll show them your migth!");
+                Warrior finishedWarrior = new Warrior(Weapon(), Armor(), currentGen, currentSiz, currentAge);
+                return finishedWarrior;
             }
         }
 
@@ -37,41 +48,68 @@ namespace Main_Program
         {
             Console.WriteLine("What is your gender?");
             Console.WriteLine("1. Male, 2. Female");
-            int gender = int.Parse(Console.ReadLine());
-            if (gender == 1)
+            int gender;
+            bool really = int.TryParse(Console.ReadLine(), out gender);
+
+            if (really)
             {
-                return Main_Program.Gender.Male;
+                if (gender == 1)
+                {
+                    return Main_Program.Gender.Male;
+                }
+                else
+                {
+                    return Main_Program.Gender.Female;
+                }
             }
             else
             {
-                return Main_Program.Gender.Female;
+
+                throw new InvalidChoiceException("Please use the appropriate number to make your choice!\n\n\n\n");
             }
+
+
         }
 
         public Size Size()
         {
             Console.WriteLine("How big are you?");
             Console.WriteLine("1. Large, 2. Average, 3. Small");
-            int size = int.Parse(Console.ReadLine());
+            int size;
+            bool really = int.TryParse(Console.ReadLine(), out size);
 
-            if (size == 1)
+            if (really)
             {
-                return Main_Program.Size.Large;
-            }
-            else if (size == 2)
-            {
-                return Main_Program.Size.Average;
+                if (size == 1)
+                {
+                    return Main_Program.Size.Large;
+                }
+                else if (size == 2)
+                {
+                    return Main_Program.Size.Average;
+                }
+                else
+                {
+                    return Main_Program.Size.Small;
+                }
             }
             else
             {
-                return Main_Program.Size.Small;
+
+                throw new InvalidChoiceException("Please use the appropriate number to make your choice!\n\n\n\n");
             }
+
         }
 
         public int Age()
         {
             Console.WriteLine("How old are you?");
             int age = int.Parse(Console.ReadLine());
+            if (age < 14 || age > 80)
+            {
+                Console.WriteLine("You're unfit for battle, call someone ready to figth!");
+                StartUp();
+            }
             return age;
         }
 

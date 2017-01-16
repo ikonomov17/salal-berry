@@ -8,6 +8,7 @@ namespace Main_Program
         {
             int damage = one.Damage - two.Armor;
             Console.WriteLine($"{one.GetType().Name} attacked {two.GetType().Name} and caused {damage} damage!");
+            Console.WriteLine($"{two.GetType().Name} has {two.Health} health remaining!");
             two.Health -= damage;
             return two.Health;
         }
@@ -16,15 +17,9 @@ namespace Main_Program
         public static bool Dodge(this Creature one, Creature two)
         {
             Random dodgeChance = new Random();
-            int dodge = (one.Agility - two.Agility) + dodgeChance.Next(1, 11) + one.Speed / 100;
+            int dodge = (one.Agility - two.Agility) + dodgeChance.Next(1, 11);
 
-            //if this creature has below 50% health dodge chance increased!
-            if (one.Health >= (one.Health / 2))
-            {
-                dodge = dodge * 2;
-            }
-
-            if (dodge <= dodgeChance.Next(1, 101))
+            if (dodge >= dodgeChance.Next(1, 101))
             {
                 return true;
             }

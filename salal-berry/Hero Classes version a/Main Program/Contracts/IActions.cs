@@ -7,7 +7,6 @@
 
         void Attacked();
         void Battle();
-        void Dodged();
-        void Speed(int iniHero, int iniEnemy);
+        void Dodged(Creature one);
     }
 }

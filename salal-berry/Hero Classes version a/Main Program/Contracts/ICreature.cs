@@ -4,7 +4,7 @@
     {
         int Agility { get; }
         int Armor { get; }
-        int Damage { get; }
+        int Damage { get; set; }
         int Health { get; set; }
         int Speed { get; }
         int Strength { get; }

@@ -32,7 +32,7 @@ namespace Main_Program
         public int Damage
         {
 			get { return this.damage; }
-			protected set { this.damage = value; }
+			set { this.damage = value; }
 		}
 
 		public int Armor

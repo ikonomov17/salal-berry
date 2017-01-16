@@ -14,7 +14,7 @@ namespace Main_Program
             this.Health += setter.Next(140, 251);
             this.Armor += setter.Next(2, 6);
             this.Speed -= setter.Next(30, 90);
-            this.Damage += setter.Next(1, 10);
+            this.Damage += setter.Next(10, 30);
             DifficultyBonus(difficulty);
         }
 
