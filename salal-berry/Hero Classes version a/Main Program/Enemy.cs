@@ -2,8 +2,8 @@
 
 namespace Main_Program
 {
-	public abstract class Enemy : Creature
-	{
+	public abstract class Enemy : Creature, IEnemy
+    {
 		private DifficultyLevel difficulty;
 		private int reward;
 

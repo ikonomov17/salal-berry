@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Main_Program
 {
-    public class Weapon
+    public class Weapon : IWeapon
     {
         private WeaponType type;
         private Size size;

@@ -2,7 +2,7 @@
 
 namespace Main_Program
 {
-	public abstract class Creature
+	public abstract class Creature : ICreature
     {
         private int health;
         private int damage;

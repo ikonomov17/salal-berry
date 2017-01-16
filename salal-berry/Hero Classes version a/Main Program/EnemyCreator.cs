@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Main_Program
 {
-    public class EnemyCreator
+    public class EnemyCreator : IEnemyCreator
     {
         public Enemy StartUp()
         {

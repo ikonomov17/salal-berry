@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Threading;
 
 namespace Main_Program
 {
-    public class Actions
+    public class Actions : IActions
     {
         private Hero mainHero;
         private Enemy mainEnemy;

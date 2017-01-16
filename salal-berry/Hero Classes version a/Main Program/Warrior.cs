@@ -2,8 +2,8 @@
 
 namespace Main_Program
 {
-	public class Warrior : Hero
-	{
+	public class Warrior : Hero, IWarrior
+    {
         private Weapon weaponType;
         private Armor armorType;
 

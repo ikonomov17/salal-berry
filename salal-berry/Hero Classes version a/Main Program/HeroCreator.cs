@@ -2,7 +2,7 @@
 
 namespace Main_Program
 {
-    public class HeroCreator
+    public class HeroCreator : IHeroCreator
     {
         public Hero StartUp()
         {

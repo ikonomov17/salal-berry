@@ -2,8 +2,8 @@
 
 namespace Main_Program
 {
-	public class Monster : Enemy
-	{
+	public class Monster : Enemy, IMonster
+    {
 		private MonsterType type;
 
 		public Monster(DifficultyLevel difficulty)

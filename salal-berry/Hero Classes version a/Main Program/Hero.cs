@@ -2,7 +2,7 @@
 
 namespace Main_Program
 {
-    public abstract class Hero : Creature
+    public abstract class Hero : Creature, IHero
     {
 		//Fields:
 		private Gender gender;

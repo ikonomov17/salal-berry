@@ -2,8 +2,8 @@
 
 namespace Main_Program
 {
-	public class Mage : Hero
-	{
+	public class Mage : Hero, IMage
+    {
         private Weapon weaponType;
 
         public Mage()

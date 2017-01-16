@@ -2,8 +2,8 @@
 
 namespace Main_Program
 {
-	public class Bandit : Enemy
-	{
+	public class Bandit : Enemy, IBandit
+    {
         private BanditType type;
         private Weapon weapon;
 
