@@ -50,7 +50,7 @@ namespace Main_Program
                     }
                     else
                     {
-                        MainHero.Damage += rng.Next(-10, 10);
+                        MainHero.Damage += rng.Next(-3, 13);
                         if (MainHero.Damage <= 0)
                         {
                             MainHero.Damage = 10;
@@ -69,7 +69,7 @@ namespace Main_Program
                     }
                     else
                     {
-                        MainEnemy.Damage += rng.Next(-10, 10);
+                        MainEnemy.Damage += rng.Next(-3, 13);
                         if (MainEnemy.Damage <= 0)
                         {
                             MainEnemy.Damage = 10;
