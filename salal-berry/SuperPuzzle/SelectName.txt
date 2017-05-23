@@ -1,5 +1,0 @@
-Enter your name:
-|===============|
-|               |
-|===============|
-max 15 characters

@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace Main_Program
 {
-    class StartClass
+    class Startup
     {
         static void Main()
         {
