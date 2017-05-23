@@ -1,8 +1,0 @@
-/Users/danielslavov/GitHub/salal-berry/salal-berry/Hero Classes version a/Main Program/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
-/Users/danielslavov/GitHub/salal-berry/salal-berry/Hero Classes version a/Main Program/bin/Debug/Main Program.exe.config
-/Users/danielslavov/GitHub/salal-berry/salal-berry/Hero Classes version a/Main Program/bin/Debug/Main Program.exe.mdb
-/Users/danielslavov/GitHub/salal-berry/salal-berry/Hero Classes version a/Main Program/bin/Debug/Main Program.pdb
-/Users/danielslavov/GitHub/salal-berry/salal-berry/Hero Classes version a/Main Program/bin/Debug/Main Program.exe
-/Users/danielslavov/GitHub/salal-berry/salal-berry/Hero Classes version a/Main Program/obj/Debug/Main Program.exe
-/Users/danielslavov/GitHub/salal-berry/salal-berry/Hero Classes version a/Main Program/obj/Debug/Main Program.exe.mdb
-/Users/danielslavov/GitHub/salal-berry/salal-berry/Hero Classes version a/Main Program/obj/Debug/Main Program.pdb
